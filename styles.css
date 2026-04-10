@@ -1,0 +1,153 @@
+/* Background */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #fce4ec, #f8bbd0);
+}
+
+/* NAVBAR (clean + spaced + centered) */
+.navbar {
+    background: #ad1457;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 20px;
+    font-size: 16px;
+}
+
+/* Adds slash between links */
+.navbar a::after {
+    content: " /";
+    margin-left: 15px;
+}
+
+.navbar a:last-child::after {
+    content: "";
+}
+
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+    color: #880e4f;
+}
+
+/* CONTAINER */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px;
+}
+
+/* CARD (FINAL FIX) */
+.card {
+    background: white;
+    width: 260px;
+    height: 340px;   /* same size for all */
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 15px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* IMAGE FIX (IMPORTANT) */
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* BUTTON */
+button {
+    background: #d81b60;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+button:hover {
+    background: #ad1457;
+}
+
+/* ORDER FORM (CENTER + CLEAN) */
+form {
+    background: white;
+    padding: 30px;
+    width: 350px;
+    margin: 50px auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 12px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* SUCCESS MESSAGE */
+.success {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+
+/* TABLE (ORDERS PAGE FIX 🔥) */
+table {
+    border-collapse: collapse;
+    margin: 30px auto;
+    width: 80%;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #d81b60;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #fce4ec;
+}
+
+tr:hover {
+    background: #f8bbd0;
+}
+
+/* FOOTER */
+.footer {
+    background: #ad1457;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 40px;
+}
