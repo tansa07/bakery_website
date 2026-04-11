@@ -1,3 +1,8 @@
+Name: Tanya S Sasalatti
+
+USN: 23btrcn060
+
+
 The Happy Batter
 The Happy Batter is a bakery-themed website built to showcase delicious baked goods, manage product listings, and provide users with an engaging online browsing experience.
 
